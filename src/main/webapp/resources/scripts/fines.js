@@ -106,4 +106,3 @@ function updateDatatable(data) {
 function updateTopsDatatable(data) {
     topsTable.clear().rows.add(data).draw();
 }
-
