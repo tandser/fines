@@ -70,15 +70,15 @@ public class FlatFine {
 
         FlatFine that = (FlatFine) obj;
 
-        return Objects.equals(this.userName,          that.userName) &&
-               Objects.equals(this.userPatronymic,    that.userPatronymic) &&
-               Objects.equals(this.userSurname,       that.userSurname) &&
+        return Objects.equals(this.userName,          that.userName)          &&
+               Objects.equals(this.userPatronymic,    that.userPatronymic)    &&
+               Objects.equals(this.userSurname,       that.userSurname)       &&
                Objects.equals(this.userLicenseNumber, that.userLicenseNumber) &&
-               Objects.equals(this.carBrand,          that.carBrand) &&
-               Objects.equals(this.carModel,          that.carModel) &&
-               Objects.equals(this.carGovNumber,      that.carGovNumber) &&
-               Objects.equals(this.dutyName,          that.dutyName) &&
-               Objects.equals(this.dutyPrice,         that.dutyPrice) &&
+               Objects.equals(this.carBrand,          that.carBrand)          &&
+               Objects.equals(this.carModel,          that.carModel)          &&
+               Objects.equals(this.carGovNumber,      that.carGovNumber)      &&
+               Objects.equals(this.dutyName,          that.dutyName)          &&
+               Objects.equals(this.dutyPrice,         that.dutyPrice)         &&
                Objects.equals(this.fineStatus,        that.fineStatus);
     }
 
