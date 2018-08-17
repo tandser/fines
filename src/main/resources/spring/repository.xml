@@ -33,9 +33,9 @@
         <property name="packagesToScan" value="ru.tandser.fines.models"/>
         <property name="jpaPropertyMap">
             <map>
-                <entry key="hibernate.dialect"    value="${local.hibernate.dialect}"/>
-                <entry key="hibernate.show_sql"   value="${local.hibernate.show_sql}"/>
-                <entry key="hibernate.format_sql" value="${local.hibernate.format_sql}"/>
+                <entry key="hibernate.dialect"    value="${hibernate.dialect}"/>
+                <entry key="hibernate.show_sql"   value="${hibernate.show_sql}"/>
+                <entry key="hibernate.format_sql" value="${hibernate.format_sql}"/>
             </map>
         </property>
     </bean>
