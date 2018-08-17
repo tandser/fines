@@ -29,7 +29,6 @@ public class DataJpaUserRepositoryImplTest extends AbstractRepositoryTest {
         Assert.assertTrue(TestHelper.USER_MATCHER.equals(TestHelper.twardowski,  twardowski));
 
         Assert.assertNull(userRepository.getByLicenseNumber("test"));
-
     }
 
     /* Setters and Getters */
