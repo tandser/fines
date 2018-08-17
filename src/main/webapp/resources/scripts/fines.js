@@ -3,7 +3,9 @@ var ajaxPath = "ajax/fines/", table, formFilter, topsTable, topsModalWindow, not
 $(function () {
     table = $("#datatable").DataTable(append({
         "dom": "Bfrtip",
-        "buttons": ["excel", "pdf", "print"],
+        "buttons": [
+            "excel", {"extend": "pdf", "orientation": "landscape", "pageSize": "A4"}, "print"
+        ],
         "columns": [{
             "data": "userName",
             "orderable": false
