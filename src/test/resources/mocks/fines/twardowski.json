@@ -1,0 +1,16 @@
+[
+  {
+    "car": {
+      "brand"    : "Lada",
+      "model"    : "Priora",
+      "govNumber": "Ш433СО 70"
+    },
+
+    "duty": {
+      "name" : "Парковка в неположенном месте",
+      "price": 1000
+    },
+
+    "status": false
+  }
+]

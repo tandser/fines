@@ -1,0 +1,14 @@
+[
+  {
+    "userName"         : "Александр",
+    "userPatronymic"   : "Трифонович",
+    "userSurname"      : "Твардовский",
+    "userLicenseNumber": "BM8531WBM",
+    "carBrand"         : "Lada",
+    "carModel"         : "Priora",
+    "carGovNumber"     : "Ш433СО 70",
+    "dutyName"         : "Парковка в неположенном месте",
+    "dutyPrice"        : 1000,
+    "fineStatus"       : false
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "userName"         : "Максимилиан",
+    "userPatronymic"   : "Александрович",
+    "userSurname"      : "Волошин",
+    "userLicenseNumber": "GA5763FWA",
+    "carBrand"         : "Skoda",
+    "carModel"         : "Octavia",
+    "carGovNumber"     : "А564ФУ 70",
+    "dutyName"         : "Парковка в неположенном месте",
+    "dutyPrice"        : 1000,
+    "fineStatus"       : false
+  },
+
+  {
+    "userName"         : "Максимилиан",
+    "userPatronymic"   : "Александрович",
+    "userSurname"      : "Волошин",
+    "userLicenseNumber": "GA5763FWA",
+    "carBrand"         : "Skoda",
+    "carModel"         : "Octavia",
+    "carGovNumber"     : "А564ФУ 70",
+    "dutyName"         : "Превышение установленной скорости движения",
+    "dutyPrice"        : 1500,
+    "fineStatus"       : false
+  },
+
+  {
+    "userName"         : "Максимилиан",
+    "userPatronymic"   : "Александрович",
+    "userSurname"      : "Волошин",
+    "userLicenseNumber": "GA5763FWA",
+    "carBrand"         : "Skoda",
+    "carModel"         : "Octavia",
+    "carGovNumber"     : "А564ФУ 70",
+    "dutyName"         : "Управление в нетрезвом виде",
+    "dutyPrice"        : 2000,
+    "fineStatus"       : false
+  }
+]

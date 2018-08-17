@@ -1,0 +1,61 @@
+[
+  {
+    "car": {
+      "brand"    : "Hyundai",
+      "model"    : "Creta",
+      "govNumber": "К121ЮА 70"
+    },
+
+    "duty": {
+      "name" : "Превышение установленной скорости движения",
+      "price": 1500
+    },
+
+    "status": false
+  },
+
+  {
+    "car": {
+      "brand"    : "Hyundai",
+      "model"    : "Creta",
+      "govNumber": "К121ЮА 70"
+    },
+
+    "duty": {
+      "name" : "Превышение установленной скорости движения",
+      "price": 1500
+    },
+
+    "status": false
+  },
+
+  {
+    "car": {
+      "brand"    : "Hyundai",
+      "model"    : "Creta",
+      "govNumber": "К121ЮА 70"
+    },
+
+    "duty": {
+      "name" : "Превышение установленной скорости движения",
+      "price": 1500
+    },
+
+    "status": false
+  },
+
+  {
+    "car":{
+      "brand"    : "Hyundai",
+      "model"    : "Creta",
+      "govNumber": "К121ЮА 70"
+    },
+
+    "duty": {
+      "name" : "Проезд на запрещающий сигнал светофора",
+      "price": 2500
+    },
+
+    "status":false
+  }
+]

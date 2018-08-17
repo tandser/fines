@@ -1,0 +1,30 @@
+[
+  {
+    "car": {
+      "brand"    : "Renault",
+      "model"    : "Duster",
+      "govNumber": "М283ЕУ 70"
+    },
+
+    "duty": {
+      "name" : "Парковка в неположенном месте",
+      "price": 1000
+    },
+
+    "status": false
+  },
+
+  {
+    "car": {
+      "brand"    : "Renault",
+      "model"    : "Duster",
+      "govNumber": "М283ЕУ 70"
+    },
+    "duty": {
+      "name" : "Парковка в неположенном месте",
+      "price": 1000
+    },
+
+    "status": false
+  }
+]

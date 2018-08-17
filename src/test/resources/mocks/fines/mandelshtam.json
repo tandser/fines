@@ -1,0 +1,31 @@
+[
+  {
+    "car": {
+      "brand"    : "Kia",
+      "model"    : "Sportage",
+      "govNumber": "Е884ИТ 70"
+    },
+
+    "duty": {
+      "name" : "Проезд на запрещающий сигнал светофора",
+      "price": 2500
+    },
+
+    "status": false
+  },
+
+  {
+    "car": {
+      "brand"    : "Kia",
+      "model"    : "Sportage",
+      "govNumber": "Е884ИТ 70"
+    },
+
+    "duty": {
+      "name" : "Тонирование передних и лобового стекол",
+      "price": 3000
+    },
+
+    "status": false
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "car": {
+      "brand"    : "Skoda",
+      "model"    : "Octavia",
+      "govNumber": "А564ФУ 70"
+    },
+
+    "duty": {
+      "name" : "Парковка в неположенном месте",
+      "price": 1000
+    },
+
+    "status": false
+  },
+
+  {
+    "car": {
+      "brand"    : "Skoda",
+      "model"    : "Octavia",
+      "govNumber": "А564ФУ 70"
+    },
+
+    "duty": {
+      "name" : "Превышение установленной скорости движения",
+      "price": 1500
+    },
+
+    "status": false
+  },
+
+  {
+    "car": {
+      "brand"    : "Skoda",
+      "model"    : "Octavia",
+      "govNumber": "А564ФУ 70"
+    },
+
+    "duty": {
+      "name" : "Управление в нетрезвом виде",
+      "price": 2000
+    },
+
+    "status": false
+  }
+]

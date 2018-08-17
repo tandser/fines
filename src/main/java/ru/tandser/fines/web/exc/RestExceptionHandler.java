@@ -1,0 +1,44 @@
+package ru.tandser.fines.web.exc;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.slf4j.event.Level;
+import org.springframework.web.bind.annotation.*;
+
+import javax.servlet.http.HttpServletRequest;
+
+import static org.slf4j.event.Level.ERROR;
+import static org.springframework.http.HttpStatus.INTERNAL_SERVER_ERROR;
+
+@ControllerAdvice(annotations = RestController.class)
+public class RestExceptionHandler {
+
+    private final Logger log = LoggerFactory.getLogger(getClass());
+
+    private static class ErrorInfo {
+        public final String url;
+        public final String cause;
+        public final String details;
+
+        public ErrorInfo(String url, Exception exc) {
+            this.url     = url;
+            this.cause   = exc.getClass().getSimpleName();
+            this.details = exc.getLocalizedMessage();
+        }
+    }
+
+    @ExceptionHandler(Exception.class)
+    @ResponseStatus(INTERNAL_SERVER_ERROR)
+    @ResponseBody
+    public ErrorInfo catchException(HttpServletRequest req, Exception exc) {
+        return logAndGetErrorInfo(req, exc, ERROR);
+    }
+
+    private ErrorInfo logAndGetErrorInfo(HttpServletRequest request, Exception exc, Level level) {
+        switch (level) {
+            default: log.debug("{}: {}", request.getRequestURL(), exc.toString());
+        }
+
+        return new ErrorInfo(request.getRequestURL().toString(), exc);
+    }
+}

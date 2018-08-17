@@ -1,0 +1,27 @@
+[
+  {
+    "userName"         : "Осип",
+    "userPatronymic"   : "Эмильевич",
+    "userSurname"      : "Мандельштам",
+    "userLicenseNumber": "LN5214YKQ",
+    "carBrand"         : "Kia",
+    "carModel"         : "Sportage",
+    "carGovNumber"     : "Е884ИТ 70",
+    "dutyName"         : "Проезд на запрещающий сигнал светофора",
+    "dutyPrice"        : 2500,
+    "fineStatus"       : false
+  },
+
+  {
+    "userName"         : "Осип",
+    "userPatronymic"   : "Эмильевич",
+    "userSurname"      : "Мандельштам",
+    "userLicenseNumber": "LN5214YKQ",
+    "carBrand"         : "Kia",
+    "carModel"         : "Sportage",
+    "carGovNumber"     : "Е884ИТ 70",
+    "dutyName"         : "Тонирование передних и лобового стекол",
+    "dutyPrice"        : 3000,
+    "fineStatus"       : false
+  }
+]

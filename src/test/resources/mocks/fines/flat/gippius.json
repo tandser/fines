@@ -1,0 +1,27 @@
+[
+  {
+    "userName"         : "Владимир",
+    "userPatronymic"   : "Васильевич",
+    "userSurname"      : "Гиппиус",
+    "userLicenseNumber": "MH7731BYW",
+    "carBrand"         : "Renault",
+    "carModel"         : "Duster",
+    "carGovNumber"     : "М283ЕУ 70",
+    "dutyName"         : "Парковка в неположенном месте",
+    "dutyPrice"        : 1000,
+    "fineStatus"       : false
+  },
+
+  {
+    "userName"         : "Владимир",
+    "userPatronymic"   : "Васильевич",
+    "userSurname"      : "Гиппиус",
+    "userLicenseNumber": "MH7731BYW",
+    "carBrand"         : "Renault",
+    "carModel"         : "Duster",
+    "carGovNumber"     : "М283ЕУ 70",
+    "dutyName"         : "Парковка в неположенном месте",
+    "dutyPrice"        : 1000,
+    "fineStatus"       : false
+  }
+]

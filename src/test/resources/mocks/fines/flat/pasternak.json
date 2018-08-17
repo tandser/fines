@@ -1,0 +1,53 @@
+[
+  {
+    "userName"         : "Борис",
+    "userPatronymic"   : "Леонидович",
+    "userSurname"      : "Пастернак",
+    "userLicenseNumber": "MA4012QIB",
+    "carBrand"         : "Hyundai",
+    "carModel"         : "Creta",
+    "carGovNumber"     : "К121ЮА 70",
+    "dutyName"         : "Превышение установленной скорости движения",
+    "dutyPrice"        : 1500,
+    "fineStatus"       : false
+  },
+
+  {
+    "userName"         : "Борис",
+    "userPatronymic"   : "Леонидович",
+    "userSurname"      : "Пастернак",
+    "userLicenseNumber": "MA4012QIB",
+    "carBrand"         : "Hyundai",
+    "carModel"         : "Creta",
+    "carGovNumber"     : "К121ЮА 70",
+    "dutyName"         : "Превышение установленной скорости движения",
+    "dutyPrice"        : 1500,
+    "fineStatus"       : false
+  },
+
+  {
+    "userName"         : "Борис",
+    "userPatronymic"   : "Леонидович",
+    "userSurname"      : "Пастернак",
+    "userLicenseNumber": "MA4012QIB",
+    "carBrand"         : "Hyundai",
+    "carModel"         : "Creta",
+    "carGovNumber"     : "К121ЮА 70",
+    "dutyName"         : "Превышение установленной скорости движения",
+    "dutyPrice"        : 1500,
+    "fineStatus"       : false
+  },
+
+  {
+    "userName"         : "Борис",
+    "userPatronymic"   : "Леонидович",
+    "userSurname"      : "Пастернак",
+    "userLicenseNumber": "MA4012QIB",
+    "carBrand"         : "Hyundai",
+    "carModel"         : "Creta",
+    "carGovNumber"     : "К121ЮА 70",
+    "dutyName"         : "Проезд на запрещающий сигнал светофора",
+    "dutyPrice"        : 2500,
+    "fineStatus"       : false
+  }
+]

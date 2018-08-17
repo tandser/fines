@@ -1,0 +1,41 @@
+[
+  {
+    "version"      : 1,
+    "name"         : "Максимилиан",
+    "patronymic"   : "Александрович",
+    "surname"      : "Волошин",
+    "licenseNumber": "GA5763FWA"
+  },
+
+  {
+    "version"      : 2,
+    "name"         : "Владимир",
+    "patronymic"   : "Васильевич",
+    "surname"      : "Гиппиус",
+    "licenseNumber": "MH7731BYW"
+  },
+
+  {
+    "version"      : 3,
+    "name"         : "Осип",
+    "patronymic"   : "Эмильевич",
+    "surname"      : "Мандельштам",
+    "licenseNumber": "LN5214YKQ"
+  },
+
+  {
+    "version"      : 4,
+    "name"         : "Борис",
+    "patronymic"   : "Леонидович",
+    "surname"      : "Пастернак",
+    "licenseNumber": "MA4012QIB"
+  },
+
+  {
+    "version"      : 5,
+    "name"         : "Александр",
+    "patronymic"   : "Трифонович",
+    "surname"      : "Твардовский",
+    "licenseNumber": "BM8531WBM"
+  }
+]
