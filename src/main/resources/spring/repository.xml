@@ -63,4 +63,21 @@
 
     </beans>
 
+    <beans profile="heroku">
+
+        <context:property-placeholder location="classpath:properties/heroku.properties"/>
+
+        <bean id="dbUrl" class="java.net.URI">
+            <constructor-arg value="#{systemEnvironment['DATABASE_URL']}"/>
+        </bean>
+
+        <bean id="dataSource" class="org.apache.tomcat.jdbc.pool.DataSource">
+            <property name="driverClassName" value="${heroku.driverClassName}"/>
+            <property name="url"             value="#{'jdbc:postgresql://' + @dbUrl.getHost() + ':' + @dbUrl.getPort() + @dbUrl.getPath()}"/>
+            <property name="username"        value="#{@dbUrl.getUserInfo().split(':')[0]}"/>
+            <property name="password"        value="#{@dbUrl.getUserInfo().split(':')[1]}"/>
+        </bean>
+
+    </beans>
+
 </beans>
